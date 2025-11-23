@@ -11,19 +11,22 @@
 #include <iostream>
 using namespace std;
 
-int add(int a,int b);
+int add(int a,int b){
+     return a+b;
+};
 int substract(int a,int b);
 
 int main(){
      char op;
      int number_1,number_2;
-     cin >> number_1 >>op>>number_1;
+     cin >> number_1 >>op>>number_2;
+
      if(op=='+'){
-     add(number_1,number_2);
+          cout << add(number_1,number_2);
 }
 
      else if(op=='-'){
-     substract(number_1,number_2);
+          cout <<substract(number_1,number_2);
      }
 
 
