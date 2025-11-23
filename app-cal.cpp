@@ -14,7 +14,9 @@ using namespace std;
 int add(int a,int b){
      return a+b;
 };
-int substract(int a,int b);
+int substract(int a,int b){
+     return a-b;
+}
 
 int main(){
      char op;
